@@ -3,16 +3,12 @@ Django==3.1.4
 django-cors-headers==3.5.0
 django-environ==0.4.5
 django-extensions==3.1.0
-# No imperative filtering, declarative beautiful filters
-django-filter==2.4.0
-# For process specification
-django-fsm==2.7.1
 djangorestframework==3.12.2
 future==0.18.2
 gunicorn==20.0.4
 gevent==20.9.0
 ipython==7.19.0
-packaging==20.7
 psycopg2-binary==2.8.6
 requests==2.25.0
-sentry-sdk==0.19.4
+django-redis==5.2.0
+python-dateutil==2.8.2

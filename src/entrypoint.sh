@@ -1,5 +1,4 @@
 #!/bin/bash
-# No more than 100 lines of code
 wait_for () {
     for _ in `seq 0 100`; do
         (echo > /dev/tcp/$1/$2) >/dev/null 2>&1
